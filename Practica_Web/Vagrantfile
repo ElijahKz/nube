@@ -1,0 +1,9 @@
+Vagrant.configure("2") do |config|
+ config.vm.define :servidorWeb do |servidorWeb|
+ config.vm.box = "bento/ubuntu-20.04"
+ servidorWeb.vm.hostname = "servidorWeb"
+ config.vm.provision :shell, path: "bootstrap.sh"
+ config.vm.synced_folder "web/", "/home/vagrant/"
+ config.vm.network :forwarded_port, guest: 80, host: 4567
+end
+end

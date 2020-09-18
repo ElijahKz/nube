@@ -1,0 +1,183 @@
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Code-First-Section-------------------------------------*/
+
+/*
+Actualmente se codifican dos columnas
+
+*/
+
+.o-row-first-section {
+    background-image: url("../img/firstSection.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.o-exposicion-section-left {
+    /* background-color: red;*/
+    padding: 2em 10em 7em 5em;
+    height: 25rem;
+}
+
+.o-exposicion-section-right {
+    background-image: url("../img/img-firstoSection.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.o-text-title-first-section {
+    padding-bottom: 0.09em;
+    border-bottom: solid #3C331D;
+    width: 6.5em;
+    color: #3C331D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.o-text-first-section {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    /*  line-height: 22px;*/
+    text-align: justify;
+    letter-spacing: 0.015em;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------Code-Second-Section-----------------------------------------------*/
+
+.o-row-second-section {
+    padding-top: 2em;
+    background-image: url("../img/SecondSection-bacground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.o-second-section-left-side {
+    display: flex;
+    justify-content: center;
+    width: 20em;
+    height: 20em;
+}
+
+.o-img-second-left-section {
+    width: 20em;
+    height: 20em;
+}
+
+.o-second-section-rigth-side {
+    padding: 3em;
+}
+
+/*------------------En esta sección se configuran los titulos y parrafos de las secciones----------------------------*/
+
+/* Cada titulo y parrafo poseen la misma propiedad pero diferentes clases, para estar sujetos a cambios y personalizaciones*/
+
+.o-text-title-second-section, .o-text-title-third-section, .o-text-title-fifth-section-left, .o-text-title-fifth-section-rigth, .o-text-title-sixth-section-left {
+    display: inline;
+    padding-bottom: 0.09em;
+    font-size: 1em;
+    color: #3C331D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.o-text-second-paragraf-section, .o-text-third-paragraf-section, .o-text-fifth-paragraf-section-left, .o-text-fifth-paragraf-section-rigth, .o-text-sixth-paragraf-section-left {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    /*line-height: 22px;*/
+    letter-spacing: 0.015em;
+    padding-bottom: 5em;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*
+.o-text-momento-style {
+    //Solo cambia el tamaño de la fuente
+    font-weight: 350;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+}
+*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------Code-Third-Section----------------------------------------*/
+
+.o-row-third-section {
+    background-image: url("../img/third-Section-row.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;
+    height: 25rem;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------Code-fourth-Section----------------------------------------*/
+
+.o-img-fourth-section {
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------Code-five-Section-----------------------------------------*/
+
+.o-row-fifth-section {
+    background-image: url("../img/Fifth-Section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    padding: 10em 8em 10em 8em;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------Code-sixth-Section-----------------------------------------*/
+.o-row-sixth-section{
+    background-image: url("../img/sixth-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    padding: 10em 8em 10em 8em;
+}
